@@ -9,6 +9,7 @@ const NavBar = () => {
       <img src = "https://gtswiki.gt-beginners.net/decal/png/56/56/88/7062308398250885656_1.png" alt= "Logo"></img>
       <input className = {styles.search} type="text" name="search bar" placeholder="Search beer" />
     </div>
+    
   )
 }
 
