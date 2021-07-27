@@ -5,7 +5,7 @@ import styles from './NavBar.module.scss'
 
 const NavBar = (props) => {
   const {setSearch} = props;
-  const [state, setState] = useState("")
+  const [state, setState] = useState(0)
 
   const handleChange = (e) =>{
     setState(e.target.value)
@@ -21,7 +21,6 @@ const NavBar = (props) => {
       <div className={styles.progress}>
       <label>Filter by IBU</label>
       <input  type="range" min="0" max="70" value={state} onChange = {handleChange} step="10"/>
-      <input className = {styles.bar} placeholder = {value.value} />
       </div>
     </div>
     
