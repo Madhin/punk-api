@@ -13,26 +13,6 @@ const App = () => {
   const [ibuVal, setIbuVal] = useState(0);
   const [ebcVal, setEbcVal] = useState(0);
   const [isClassic, setIsClassic] = useState(false);
-  
- 
-//   const apiURL = "https://api.punkapi.com/v2/beers"
-
-//   const fetchData = async () => {
-//     const response = await axios.get(apiURL)
-
-//     setBeers(response.data)
-//     console.log(beers)
-// }
-
-// useEffect(() => {
-// fetchData()
-// }, [])
-
-// const filteredBeers = search.length === 0 ? beers : 
-//     beers.filter(beer => beer.name.
-//                 toLowerCase().includes(search.toLowerCase()))
-                
-// console.log(filteredBeers)
 
 const fetchBeers = () => {
   const nameStr = search ? `&beer_name=${search}` : "";

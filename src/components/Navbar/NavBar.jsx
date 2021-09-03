@@ -10,8 +10,6 @@ const NavBar = (props) => {
   setAbvVal,
   ibuVal,
   setIbuVal,
-  ebcVal,
-  setEbcVal,
   isClassic,
   setIsClassic} = props;
     
