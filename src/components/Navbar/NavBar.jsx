@@ -25,15 +25,15 @@ const NavBar = (props) => {
        fetchBeers();}
       }/>
       <div className={styles.progress}>
-      <label>Filter by IBU</label>
-      <label className={styles.sliderValue}>{ibuVal}</label>
+      <label>Filter by International Bitterness Index</label>
+      <label className={styles.sliderValue}>> {ibuVal}</label>
       <input  type="range" id="ibuVal" min="0" max="250" value={ibuVal} step="1" onInput={event => {
           setIbuVal(event.target.value);
           fetchBeers();
           }
         }/>
-        <label>Filter by ABV</label>
-      <label className={styles.sliderValue}>{abvVal}%</label>
+        <label>Filter by Alcohol By Volume</label>
+      <label className={styles.sliderValue}>> {abvVal}%</label>
       <input  type="range" id="abvVal" min="0" max="35" value={abvVal} step="0.1" onInput={event => {
           setAbvVal(event.target.value);
           fetchBeers();

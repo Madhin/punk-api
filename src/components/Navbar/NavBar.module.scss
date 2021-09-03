@@ -13,7 +13,7 @@
 }
 
 .search{
-height:5%;
+height:10%;
 width:35%;
 margin-top: 10%;
 }
@@ -29,4 +29,34 @@ flex-direction: column;
 width:25%;
 margin-right: 2%;
 margin-top: 2%;
+}
+
+@media screen and (max-width: 740px) {
+  .NavBar{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 25em;
+    border: 2px solid white;
+    align-items: center;
+  }
+
+  .logo{
+    height: 25%;
+    width: 30%;
+    margin-top: 1%;
+  }
+
+  .search{
+    height:10%;
+    width:70%;
+    margin-top: 1%;
+    }
+
+    .progress{
+      display: flex;
+      flex-direction: column;
+      width:45%;
+      margin-top: 1%;
+      }
 }
