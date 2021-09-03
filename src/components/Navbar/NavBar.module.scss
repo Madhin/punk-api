@@ -1,29 +1,32 @@
 .NavBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: black;
-  height: 22em;
+  height: 15em;
   border: 2px solid white;
 }
 
-img{
-  height: 150px;
+.logo{
+  height: 75%;
+  margin-top: 2%;
 }
 
 .search{
-position: absolute;
-left:480px;
-top:110px;
-width:420px;
+height:5%;
+width:35%;
+margin-top: 10%;
 }
 
 label{
   color:white;
 }
 
-input{
-  max-width: 20%;
-}
+
 .progress{
 display: flex;
 flex-direction: column;
-
+width:25%;
+margin-right: 2%;
+margin-top: 2%;
 }

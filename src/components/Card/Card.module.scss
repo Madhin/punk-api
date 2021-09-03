@@ -17,10 +17,14 @@ html{
   -webkit-backdrop-filter: blur( 5.0px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width:1000px;
+  width:50vw;
   margin:20px;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
+}
+
+img{
+  height: 30vh;
 }
 
 .name{
