@@ -1,6 +1,7 @@
 .NavBar{
   background-color: black;
-  height: 170px;
+  height: 22em;
+  border: 2px solid white;
 }
 
 img{
@@ -18,9 +19,11 @@ label{
   color:white;
 }
 
+input{
+  max-width: 20%;
+}
 .progress{
 display: flex;
-position: absolute;
-left:1100px;
-top:110px;
+flex-direction: column;
+
 }
