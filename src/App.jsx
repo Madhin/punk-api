@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Main from './Main/Main';
 import NavBar from './components/Navbar';
-import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 
